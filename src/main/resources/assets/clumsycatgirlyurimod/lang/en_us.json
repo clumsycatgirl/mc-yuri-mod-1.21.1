@@ -1,6 +1,17 @@
 {
 	"item.clumsycatgirlyurimod.gay": "Gay",
 	"item.clumsycatgirlyurimod.lesbian_disc": "Lesbian Song Disc",
+	"item.clumsycatgirlyurimod.chisel": "Chisel",
 
-	"block.clumsycatgirlyurimod.companion_block": "Companion Block"
+	"item.clumsycatgirlyurimod.ygoback": "Ygo Card",
+	"item.clumsycatgirlyurimod.ygoscheiren": "Tearlaments Scheiren",
+	"item.clumsycatgirlyurimod.ygomerrli": "Tearlaments Merrli",
+	"item.clumsycatgirlyurimod.ygokitkallos": "Tearlaments Kitkallos",
+
+	"block.clumsycatgirlyurimod.companion_block": "Companion Block",
+	"block.clumsycatgirlyurimod.cracked_companion_block": "Cracked Companion Block",
+	"block.clumsycatgirlyurimod.mimic_block": "Companion Block...",
+
+	"creativetab.clumsycatgirlyurimod.yurimod_items":  "yuri items",
+	"creativetab.clumsycatgirlyurimod.yurimod_ygo": "yuri ygo"
 }

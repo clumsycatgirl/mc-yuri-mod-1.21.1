@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.25,
+	"group": "trans",
+	"ingredient": {
+		"item": "clumsycatgirlyurimod:companion_block"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:dried_kelp_block"
+	}
+}

@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.checkerframework.framework.qual.Unused;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
@@ -19,6 +18,16 @@ public class ModBlocks {
 	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(YuriMod.MOD_ID);
 
 	public static final DeferredBlock<Block> COMPANION_BLOCK = registerBlock("companion_block", () -> new Block(BlockBehaviour.Properties.of()
+		.strength(4f)
+		.requiresCorrectToolForDrops()
+		.sound(SoundType.COPPER_BULB)));
+
+	public static final DeferredBlock<Block> CRACKED_COMPANION_BLOCK = registerBlock("cracked_companion_block", () -> new Block(BlockBehaviour.Properties.of()
+		.strength(3f)
+		.requiresCorrectToolForDrops()
+		.sound(SoundType.COPPER_BULB)));
+
+	public static final DeferredBlock<Block> MIMIC_BLOCK = registerBlock("mimic_block", () -> new Block(BlockBehaviour.Properties.of()
 		.strength(4f)
 		.requiresCorrectToolForDrops()
 		.sound(SoundType.COPPER_BULB)));
