@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:block/cube_all",
-	"textures": {
-		"all": "clumsycatgirlyurimod:block/cracked_companion_block"
-	}
-}

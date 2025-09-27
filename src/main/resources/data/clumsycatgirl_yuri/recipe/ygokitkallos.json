@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "clumsycatgirl_yuri:ygoscheiren"
+		},
+		{
+			"item": "clumsycatgirl_yuri:ygomerrli"
+		}
+	],
+	"result": {
+		"count": 1,
+		"id": "clumsycatgirl_yuri:ygokitkallos"
+	}
+}

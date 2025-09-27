@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "clumsycatgirl_yuri:item/ygo_vallon_the_super_psy_skyblaster"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"clumsycatgirl_yuri:shown": 1
+			},
+			"model": "clumsycatgirl_yuri:item/ygo_back"
+		}
+	]
+}
